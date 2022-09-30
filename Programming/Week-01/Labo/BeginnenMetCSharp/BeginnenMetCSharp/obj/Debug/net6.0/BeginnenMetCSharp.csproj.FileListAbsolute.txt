@@ -1,0 +1,15 @@
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\bin\Debug\net6.0\BeginnenMetCSharp.exe
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\bin\Debug\net6.0\BeginnenMetCSharp.deps.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\bin\Debug\net6.0\BeginnenMetCSharp.runtimeconfig.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\bin\Debug\net6.0\BeginnenMetCSharp.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\bin\Debug\net6.0\BeginnenMetCSharp.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.csproj.AssemblyReference.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.AssemblyInfoInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.AssemblyInfo.cs
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.csproj.CoreCompileInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\refint\BeginnenMetCSharp.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\BeginnenMetCSharp.genruntimeconfig.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\BeginnenMetCSharp\BeginnenMetCSharp\obj\Debug\net6.0\ref\BeginnenMetCSharp.dll
