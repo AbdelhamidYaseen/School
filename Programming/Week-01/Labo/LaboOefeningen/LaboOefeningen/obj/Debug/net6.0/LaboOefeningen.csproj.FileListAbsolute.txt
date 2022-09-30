@@ -1,0 +1,15 @@
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.exe
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.deps.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.runtimeconfig.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.csproj.AssemblyReference.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.AssemblyInfoInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.AssemblyInfo.cs
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.csproj.CoreCompileInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\refint\LaboOefeningen.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.genruntimeconfig.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-01\Labo\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\ref\LaboOefeningen.dll
