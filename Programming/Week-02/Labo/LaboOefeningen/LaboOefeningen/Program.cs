@@ -11,7 +11,7 @@ namespace LaboOefeningen
             //VariabelenEnDatatypes.BeetjeWiskunde();
             //VariabelenEnDatatypes.Gemiddelde();
             //VariabelenEnDatatypes.Maaltafels();
-            VariabelenEnDatatypes.Ruimte();
+            //VariabelenEnDatatypes.Ruimte();
         }
     }
 }
