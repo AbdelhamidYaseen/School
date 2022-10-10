@@ -1,0 +1,21 @@
+h1{
+    text-shadow: 2px 2px 7px black;
+    color: blue;
+    font-weight: bold;
+}
+h2{
+    font-size: 16px;
+    color: blue;
+}
+h3{
+    font-size: 28px;
+    color: blue;
+    text-transform: uppercase;
+}
+a.a{
+    font-weight: bold;
+    color: blue;
+}
+p.a{
+    font-weight: bold;
+}
