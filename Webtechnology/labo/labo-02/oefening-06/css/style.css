@@ -1,0 +1,12 @@
+*{
+    background-color: lightslategray;
+    padding: 16px;
+}
+h1{
+    color: gray;
+    background-color: lightgrey;
+}
+p{
+    margin: 0%;
+    color: white;
+}

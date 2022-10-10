@@ -1,0 +1,26 @@
+*{
+    border: solid black;
+    border-width: thin;
+}
+header{
+    border-width: 100%;
+}
+footer{
+    border-width: 100%;
+}
+section{
+    height: 62%;
+    width: 62%;
+}
+aside{
+    height: 38%;
+    width: 38%;
+}
+nav{
+    height: 50%;
+    width: 50%;
+}
+article{
+    border: dotted red;
+    border-width: thin;
+}

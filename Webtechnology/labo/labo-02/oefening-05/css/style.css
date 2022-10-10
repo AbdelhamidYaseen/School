@@ -1,0 +1,18 @@
+*{
+    background-color: gray;
+    padding: 15px;
+}
+h1{
+    border: seagreen;
+    background-color: seagreen;
+    color: white;
+    
+}
+h2{
+    border: palevioletred;
+    background-color: palevioletred;
+    color: white;
+}
+p{
+    background-color: white;
+}
