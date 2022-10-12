@@ -12,21 +12,21 @@ p{
     border:  solid black 10px;
     margin: auto;
 }
-p.text{
+.text{
     border: none;
     height: auto;
     width: auto;
     margin: 10px;
 }
-p.red{
+.red{
     background-color: red;
     border-style: solid;
 }
-p.green{
+.green{
     background-color: green;
     border-style: double;
 }
-p.blue{
+.blue{
     background-color: blue;
     border-style: dotted;
 }
