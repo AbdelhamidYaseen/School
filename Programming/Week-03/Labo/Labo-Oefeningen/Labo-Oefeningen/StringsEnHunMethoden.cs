@@ -110,7 +110,6 @@ namespace Labo_Oefeningen
             email = Console.ReadLine();
 
             Console.WriteLine($"Je naam uit je e-mail is: {email.Substring(0,email.IndexOf("@")).ToUpper()}");
-
         }
         public static void EersteLetterEnAchernaam() {
             string name;
