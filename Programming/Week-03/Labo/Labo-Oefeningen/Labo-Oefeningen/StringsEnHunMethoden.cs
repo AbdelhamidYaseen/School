@@ -15,7 +15,6 @@ namespace Labo_Oefeningen
             sentence = Console.ReadLine();
             Console.WriteLine(sentence.ToUpper());
         }
-
         public static void MaaltafelStringInterpolatie() {
             Console.WriteLine("Dit zijn de vermenigvuldigen van het getal 411");
             for (int currentMultiplier = 0; currentMultiplier <= 10; currentMultiplier++)
