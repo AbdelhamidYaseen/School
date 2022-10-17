@@ -1,0 +1,40 @@
+html, body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    grid-area: header;
+    background-color: #91c8ff;
+}
+nav{
+    grid-area: nav;
+    background-color: #b3d8fd;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    margin: 5px;
+
+}
+main{
+    grid-area: main;
+    background-color: #7da9d5;
+}
+aside{
+    grid-area: aside;
+    background-color: #007fff;
+}
+footer{
+    grid-area: footer;
+    background-color: #588ec3;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'main main main main aside aside'
+        'footer footer footer footer footer footer'
+    ;
+    margin: 0px;
+    padding: 5px;
+}

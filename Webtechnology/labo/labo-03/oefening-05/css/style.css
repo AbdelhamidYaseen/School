@@ -1,0 +1,34 @@
+
+ul{
+    list-style-image: url(./bijlage-oefening-05-icon-plus.png);
+}
+thead{
+    background-color: aquamarine;
+    color: green;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+}
+tbody tr:nth-child(even){
+    background-color: aliceblue; 
+}
+/*tbody tr:nth-child(odd){
+    border: solid 2px green;
+}*/
+td:nth-child(even), td:nth-child(odd){
+    border-left: solid 2px green;
+    border-top:solid 2px green ;
+}
+tr:nth-child(even){
+    border-top: solid 2px green;
+    border-bottom: solid 2px green;
+}
+thead th:nth-child(odd){
+    border-bottom: solid 2px green;
+    border-right: solid 2px green ;
+}
+thead th:nth-child(2){
+    border-right: solid green 2px;
+}

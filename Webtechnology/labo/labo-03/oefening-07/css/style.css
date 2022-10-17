@@ -1,0 +1,61 @@
+/**{
+    border: black solid 1px;
+}*/
+html, body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header header nav'
+    'main main main aside'
+    'footer footer footer footer'
+    ;
+}
+header{
+    grid-area: header;
+    font-size: 36px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+nav{
+    grid-area: nav;
+}
+ul{
+    position: absolute;
+    bottom: 80%;
+    right: 5%;
+}
+aside{
+    grid-area: aside;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: #ccc;
+    width: 100%;
+}
+main{
+    grid-area: main;
+}
+thead > tr >th{
+    color: #fff;
+    background-color: black;
+}
+tbody > tr > th{
+    color: #fff;
+    background-color: black;
+}
+
+tbody > tr > td{
+    text-align: center;
+}
+footer > p{
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+}

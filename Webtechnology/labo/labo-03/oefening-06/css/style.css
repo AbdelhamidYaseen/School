@@ -1,0 +1,22 @@
+table{
+    width: 600px;
+}
+thead th{
+    border-bottom: 1px solid black;
+    border-top: 1px solid gray;
+}
+tbody tr:last-child th, tbody tr:last-child td{
+    border-bottom: 1px solid black;
+}
+tbody tr:nth-child(even){
+    background-color:#efefef ;
+}
+tbody tr:nth-child(odd){
+    background-color:#fff ;
+}
+tbody tr:hover, thead tr:hover, tfoot:hover{
+    background-color: #c3e6e5;
+}
+tbody tr:nth-child(even) td:last-child{
+    text-align: right;
+}
