@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="een webshop voor koffie">
+    <meta name="keywords" content="koffie, bonen, gemalen">
+    <meta name="author" content="student AP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koffie-shop</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="index.html">COFFEE shop</a>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="#"><img src="./assets/images/searchblack.png" width="134" height="354"></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>may the coffee<br>be with you</h1>
+    </header>
+    <main>
+        <section id="contact">
+            <article class="full">
+                <h2>contact</h2>
+                <form action="#" method="post" class="contactform">
+                    <!--- Maak het formulier zo goed mogelijk na op basis van de printscreens uit labo 4.-->
+                    <p>Vul het registratieformulier in. Velden met een <span>*</span> zijn verplicht</p>
+                    <fieldset>
+                        <legend>GEGEVENS</legend>
+                        <form action="htttps://www.example.com" method="get">
+                            <label for="voor&achternaam">voor-en achternaam<span>*</span></label>
+                            <input type="text" name="voor&achternaam" id="voor&achternaam" required>
+                            <br>
+                            <label for="email">e-mail<span>*</span></label>
+                            <input type="e-mail" name="email" id="email" required>
+                            <br>
+                            <label for="mobiel">mobiel</label>
+                            <input type="text" name="mobiel" id=""mobiel>
+                            <br>
+                            <label for="birthdate">geboortedatum</label>
+                            <input type="date" name="geboortedatum" id="birthdate">
+                            <br>    
+                        </fieldset>
+                    <fieldset>
+                            <legend>accountgegevens</legend>
+                            <label for="password">password<span>*</span></label>
+                            <input type="password" name="password" id="password" required>
+                            <br>
+                            <label for="bevestiging">bevestiging password<span>*</span></label>
+                            <input type="password" name="bevestiging" id="bevestiging">
+                            <br>    
+                        <fieldset>
+                    <fieldset>
+                        <legend>ADRESGEGEVENS</legend>
+                        <label for="adres">adres<span>*</span></label>
+                        <input type="text" name="adres" id="adres"required>
+                        <br>
+                        <label for="postcode">postcode<span>*</span></label>
+                        <input type="text" name="postcode" id="postcode"required>
+                        <br>
+                        <label for="stad">stad<span>*</span></label>
+                        <input type="text" name="stad" id="stad">
+                        <br>
+                        <label for="land">kies een land<span>*</span></label>
+                        <select name="land" id="land">kies een land<span>*</span>
+                            <option value="Belgie">Belgie</option>
+                            <option value="Duitsland">Duitsland</option>
+                            <option value="Frankrijk">Frankrijk</option>
+                            <option value="Luxemburg">Luxemburg</option>
+                            <option value="Nederland">Nederland</option>
+                            <option value="Verenigd Koninkrijk">Verenigd Koninkrijk</option>
+                        </select>
+                        <br>
+                        </fieldset>
+                    <fieldset>
+                        <legend>koffie-achtergrond</legend>
+                        <label for="aankoop">ik koop</label>
+                        <select name="aankoop" id="aankoop">
+                            <option value="bonen">koffiebonen</option>
+                            <option value="gemalen">gemalen koffie</option>
+                            <option value="oplos">oploskoffie</option>
+                        </select>
+                        <br>
+                        <label for="merk">en ben fan van het merk</label>
+                        <select name="merk" id="merk">
+                            <option value="Illy">Illy</option>
+                            <option value="Lavazza">Lavazza</option>
+                            <option value="Starbucks">Starbucks</option>
+                            <option value="Gran Maestro Italiano">Gran Maestro Italiano</option>
+                            <option value="Celeste d'Oro">Celeste d'Oro</option>
+                        </select>
+                        <br>
+                        <label for="teveredenheid">hoe tevreden ben je van ons?</label>
+                        <br>
+                        <input type="range" id="teveredenheid" name="tevredenheid" min="0" max="10">
+                        <br>
+                        </fieldset>
+                    <button class="contactbtn" type="contactbtn">verzenden</button>
+                </form>
+            </article>
+        </section>
+        <section>
+            <img src="./assets/images/coffeeshop.jpg" width="100%" alt="coffee shop">
+        </section>
+    </main>
+    <aside>
+        <h2>contact</h2>
+        <p>COFFEE shop<br>
+            email <a href="mailto:mail@ap-coffeeshop.be">mail@ap-coffeeshop.be</a><br>
+            phone +32 123 / 45 67 89</p>
+        <ul class="socials">
+            <li><a href="https://www.youtube.com" target="_blank"><img src="./assets/images/iconyoutube.png" width="126"
+                        height="126"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/iconinstagram.png"
+                        width="126" height="126"></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/iconfacebook.png"
+                        width="126" height="126"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="./assets/images/icontwitter.png" width="126"
+                        height="126"></a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2022 COFFEE shop - <a href="https://www.ap.be/privacy-en-cookieverklaring" target="_blank">privacy
+                policy - cookies</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\refint\ConsoleApp1.dll
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\abdel\OneDrive\Bureaublad\School\Programming\Week-04\Labo\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
