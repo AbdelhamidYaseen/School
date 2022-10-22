@@ -15,7 +15,7 @@ namespace Labo_Oefeningen
             //StringsEnHunMethoden.Lotto();
             //StringsEnHunMethoden.SomVanCijfers();
             //StringsEnHunMethoden.NaamUitMail();
-            //StringsEnHunMethoden.EersteLetterEnAchernaam();
+            StringsEnHunMethoden.EersteLetterEnAchernaam();
             //StringsEnHunMethoden.Toegangscode();
         }
     }
