@@ -1,0 +1,341 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41190f;
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: grid;
+    grid-template-areas: 
+    /* vervolledig de grid-template areas: nav, header en footer nemen 100% van de breedte in, main ¾ en aside ¼ */    
+    'header header header header'
+    'nav nav nav nav'
+    'main main main aside'
+    'foot foot foot foot'
+                ;
+
+    padding: 0rem 6rem 1rem 5rem;
+    max-width: 100rem;
+    margin: auto;
+}
+
+
+/*--- algemeen ---*/
+h1 {
+    color: #ca8446;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #41190f;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2rem; 
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #646464;
+    padding-bottom: 1rem;
+    text-align: justify;
+    padding: 0rem 3rem 1rem 0rem;
+}
+a, a:hover {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ca8446;
+}
+
+figcaption {
+    color: #e7e7e7;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+.left {
+    width: 50%;
+  }
+.right {
+    width: 50%;
+  }
+.full {
+    width: 100%;
+  }
+
+
+/*--- navigatie ---*/
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin: 3.5rem 0 0 4rem;
+    text-decoration: none;
+    color: #41190f;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #41190f;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    margin: 4rem 1.5rem 0 0;
+}
+nav ul li a:hover {
+    font-weight: bold;
+}
+nav li img {
+    height: 2.8rem;
+    width: auto;
+}
+
+/*--- header ---*/
+header {
+    grid-area: header;
+
+}
+
+/*--- main ---*/
+main {
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+/*--- home & contact---*/
+#home, #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: auto;
+    justify-content: center;
+  }
+
+#home article{
+    padding-bottom: 2rem;
+    border-bottom: 	0rem solid #41190f;
+}
+
+/*--- shop ---*/
+#shop {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    padding: 3rem 3rem 3rem 0rem;
+}
+
+#shopintro article{
+    padding-bottom: 2rem;
+    border-bottom: 	0.06rem solid #41190f;
+}
+
+.shop-item {
+    width: 20rem;
+    margin: 0 0.5rem 0.5rem 0;
+}
+.shop-item h2 {
+    color: #41190f;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.shop-item p {
+    color: #41190f;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+.shop-item img {
+    width: 100%;
+    height: auto;
+}
+.shop-item img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.shop-item figcaption {
+    color: #41190f;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    padding: 0 0 3rem 0rem;
+}
+
+/*--- aside ---*/
+aside {
+    grid-area: aside;
+    max-width: 25rem;
+    padding: 0rem 0rem 3rem 3rem;
+    border-left: 0.06rem solid #41190f;
+}
+
+/*--- contact ---*/
+#contact article{
+    padding-bottom: 2rem;
+}
+
+#contact fieldset {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+#contact legend {
+    color: #ca8446;
+    text-transform: uppercase;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+.contactform h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.2rem; 
+}
+.contactform label {
+    display: inline-block;
+    width: 27%;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #646464;
+    text-align: left;
+    padding: 0rem 0rem 1rem 0rem;
+}
+span{
+    color: #ca8446;
+}
+.contactform input, .contactform textarea {
+    background: transparent;
+    width:70%;
+    border: 0;
+    border-bottom: solid 2px rgb(18,18,18,0.40);
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+.contactform textarea {
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactform .contactbtn {
+    width: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: solid 2px#ca8446;
+    padding: 0.4rem 0;
+}
+
+
+/*--- socials ---*/
+.socials {
+    display: flex;
+    justify-content: flex-start;
+}
+.socials img {
+    width: 2rem;
+    height: auto;
+    margin: 1rem 1.5rem 3rem 0;
+}
+
+
+/*--- footer ---*/
+footer {
+    grid-area: foot;
+}
+
+footer p {
+    color: #ca8446; 
+    font-size: 0.8rem;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+
+/*--------------------*/
+/*--- mediaqueries ---*/
+/*--------------------*/
+@media all and (max-width:960px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        /* vervolledig de grid-template areas: nav, header, main, aside en footer nemen 100% van de breedte in */    
+        'header header header header'
+        'nav nav nav nav'
+        'main main main main'
+        'aside aside aside aside'
+        'foot foot foot foot'
+ ;
+        padding: 0rem 6rem 1rem 5rem;
+    }
+
+    main {
+        grid-area: main;
+        padding: 0rem 0rem 3rem 0rem;
+    }
+
+    nav {
+        margin: 1rem 0 0 3rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1 {
+        /* heeft h1 een kleur #9f6838 */
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        padding: 3rem 2rem 2rem 3rem;
+    }
+    #home, #contact {
+        flex-wrap: wrap;
+    }
+    #shop{
+        margin: 2rem 0;
+        padding: 0rem;
+    } 
+    .left, .right {
+        width: 100%;
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .list {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        padding: 0 0 2rem 4rem;
+    }
+}
+
+@media all and (max-width:px) {
+    h1 {
+    /* heeft h1 een kleur #83542b */
+    color: #83542b;
+    }
+}
+/*
+@media only screen and (max-width 960px){
+    h1{
+        grid-area: 1/1/1/1;
+        color: #9f6838;
+    }
+}
+@media only screen and (max-width 768px){
+    h1{
+        color: #83542b;
+    }
+}
+*/
