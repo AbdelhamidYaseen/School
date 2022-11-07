@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 5px;
+    transition:  0.4s transform;
+    font-size: 2rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 4px 6px;
+    text-align: center;
+}
+
+.left:hover{
+    transform: translateX(-16px);
+}
+ 
+.up:hover{
+    transform: translateY(-16px);
+}
+
+.right:hover{
+    transform: translateX(-16px);
+}
+

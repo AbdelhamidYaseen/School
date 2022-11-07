@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+#slide-in{
+    position: relative;
+    color: #fff;
+    animation: 2s slide-in infinite ease-out;
+}
+@keyframes slide-in{
+    0%{
+        left: -1024px;
+        opacity: 0;
+    }
+    50%{
+        left: 0px;
+        opacity: 1;
+    }
+}

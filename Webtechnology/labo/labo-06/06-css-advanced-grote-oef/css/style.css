@@ -1,0 +1,134 @@
+/* 
+Oefening CSS advanced - CSS animations, custom properties en transitions
+
+Maak de video na in CSS.
+
+Je body is een grid met een height van 100vh;
+de grid areas zijn: header, main en footer;
+
+Definieer in de pseudeklasse root de volgende custom properties:
+    --bg-color-primary: rgb(96, 143, 255);
+    --bg-color-secondary: rgb(32, 32, 32);
+    --bg-color-white: rgb(253, 251, 244);
+
+Gebruik de custom properties doorheen de oefening voor de properties color en bg-color;
+
+Maak de navigatie na met flexbox;
+Elk navigatie element werkt met een color transition van 0.4 seconden;
+Gebruik hiervoor de pseudoklasse hover;
+
+Maak de main na met flexbox;
+De foto met tekst in cirkel formaat komt links te staan en de form rechts;
+
+De foto wordt lineair geanimeerd. De animatie duurt 15 seconden en wordt oneindig keer herhaalt;
+
+Definieer keyframes met de naam 'rotate';
+Werk met de property transform (rotate) om het effect in de video te bekomen;
+
+Style de form zoals weergegeven in de video;
+Je verzend knop werkt met een transition;
+Verander de bg-color en border-radius met de pseudoklasse hover;
+Wanneer je er op klikt wordt de text zwart;
+
+*/
+
+:root{
+    --bg-color-primary: rgb(96, 143, 255);
+    --bg-color-secondary: rgb(32, 32, 32);
+    --bg-color-white: rgb(253, 251, 244);
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+}
+
+header{
+    grid-area: header;
+}
+main{
+    display: flex;
+    grid-area: main;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer{
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    background-color: var(--bg-color-primary);
+}
+
+header nav >*{
+    display: flex;
+    background-color: var(--bg-color-primary);
+    height: 3rem;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+header nav ul li{
+    padding-top:10px;
+}
+
+
+header nav ul li a{
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.4s color;
+    
+}
+
+nav ul li a:hover{
+    color: var(--bg-color-secondary);
+}
+
+img{
+    animation: 15s rotate infinite linear ;
+    width: 300px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color-secondary);
+    color: #fff;
+    left: 0;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+}
+
+form > input{
+    left: 0;
+    width: 100%;
+}
+
+form > textarea{
+    width: 100%;
+    left: 0;
+}
+@keyframes rotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
