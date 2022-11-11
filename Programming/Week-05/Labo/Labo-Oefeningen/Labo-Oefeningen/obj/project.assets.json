@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-04\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
+      "projectUniqueName": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
       "projectName": "Labo-Oefeningen",
-      "projectPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-04\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
+      "projectPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
       "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-04\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\obj\\",
+      "outputPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",

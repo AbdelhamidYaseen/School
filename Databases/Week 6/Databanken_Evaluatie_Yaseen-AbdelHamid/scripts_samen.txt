@@ -1,0 +1,27 @@
+USE yaseenabdelhamid;
+SET sql_safe_updates = 0
+;
+UPDATE Games 
+SET Uitgever = null
+WHERE Uitgever = "Square Enix"
+ ;
+SET sql_safe_updates = 1
+;
+SELECT * FROM Games
+;
+=========================================================
+USE yaseenabdelhamid;
+SELECT COUNT(ReleaseJaar) 
+AS "Aantal Nummers"
+FROM Liedjes
+GROUP BY ReleaseJaar < 1990
+;
+=========================================================
+USE yaseenabdelhamid;
+SELECT Album 
+FROM Liedjes 
+WHERE Genre 
+LIKE "%ock%" 
+GROUP BY Album 
+HAVING SUM(Royalties) > 300 ORDER BY Album DESC
+;
