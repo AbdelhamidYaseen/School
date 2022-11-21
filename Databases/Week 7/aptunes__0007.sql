@@ -1,0 +1,6 @@
+USE yaseenabdelhamid;
+-- ///////////////////////////////////////////////////////////////////////////
+SELECT Titel, Duurtijd
+FROM Nummers
+WHERE Duurtijd <= "120"
+;

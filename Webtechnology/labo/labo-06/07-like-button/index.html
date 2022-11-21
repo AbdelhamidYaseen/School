@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIKE-BUTTON</title>
+    <link rel="stylesheet" href="../07-like-button/css/">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <p class="btns">
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart"></i></Button>
+        <Button onclick="Toggle2()" id="btnh2" class="btn"><i class="far fa-heart"></i></Button>
+        <Button onclick="Toggle3()" id="btnh3" class="btn"><i class="fab fa-gratipay"></i></Button>
+    </p>
+    <script>
+    //    First Like Button   
+       var btnvar1 = document.getElementById('btnh1');
+
+       function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+       }
+    //    Second Like Button   
+       var btnvar2 = document.getElementById('btnh2');
+
+       function Toggle2(){
+                if (btnvar2.style.color =="red") {
+                    btnvar2.style.color = "grey"
+                }
+                else{
+                    btnvar2.style.color = "red"
+                }
+       }
+    //    Third Like Button   
+       var btnvar3 = document.getElementById('btnh3');
+
+       function Toggle3(){
+                if (btnvar3.style.color =="red") {
+                    btnvar3.style.color = "grey"
+                }
+                else{
+                    btnvar3.style.color = "red"
+                }
+       }
+
+    </script>
+</body>
+</html>
