@@ -98,8 +98,33 @@ img{
 
 
 /*#endregion*/
-/*#region---KEYFRAMES---*/
+/*#region---MEDIA---*/
+    @media screen and (max-width:600px) {
+            /*#region---hobby---*/
+        #hobby{
+            
+        }
+        #hobby .no-border{
+            display: none;
+        }
+        #hobby article{
+            margin: 15px 45px;
+        }
+            /*#endregion*/
+            /*#region---home--*/
+        #contact{
 
+        }
+            /*#endregion*/
+            /*#region--contact--*/
+
+            /*#endregion*/
+    }
+/*#endregion*/
+/*#region---KEYFRAMES---*/
+@keyframes identifier {
+    
+}
 /*#endregion*/
 
 
@@ -116,6 +141,9 @@ img{
     justify-content: space-evenly;
     margin: 5px;
     padding: 25px;
+}
+#hobby article{
+    margin: 0px 5px 5px 5px;
 }
 .hoverpallet{
     opacity: 0.3;
@@ -149,7 +177,6 @@ img{
     padding-bottom: 1.5rem;
 }
 #contact section{
-    /*border: #EBEBEB solid 1px;*/
     justify-content: space-around;
 }
 #contact label{
@@ -163,6 +190,9 @@ img{
 }
 .textlabel{
     vertical-align: middle;
+}
+#contact #find label{
+    width: 10%;
 }
 #contact #details label{
     width: 10%;
