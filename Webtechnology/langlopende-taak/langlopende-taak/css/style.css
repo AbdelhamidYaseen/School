@@ -6,8 +6,6 @@
 }
 /*#endregion*/
 
-
-
 /*#region---CORE---*/
 *{
     background-color: var(--bg-color-primary);
@@ -60,6 +58,8 @@ nav ul li a:hover{
     left: 0;
     top: 0;
     border: none;
+    box-shadow: none;
+
 }
 /*#endregion*/
 /*#region---MAIN---*/
@@ -89,37 +89,16 @@ h1,h2,h3,h4,h5,h6{
 }
 img{
     border: var(--bg-color-tertiary) solid 5px;
+    box-shadow: 0px 0px 5px var(--bg-color-tertiary);
 }
 .no-border{
     border: none;
+    box-shadow: none;
 }
 /*#endregion*/
 /*#region---DETAIL---*/
 
 
-/*#endregion*/
-/*#region---MEDIA---*/
-    @media screen and (max-width:600px) {
-            /*#region---hobby---*/
-        #hobby{
-            
-        }
-        #hobby .no-border{
-            display: none;
-        }
-        #hobby article{
-            margin: 15px 45px;
-        }
-            /*#endregion*/
-            /*#region---home--*/
-        #contact{
-
-        }
-            /*#endregion*/
-            /*#region--contact--*/
-
-            /*#endregion*/
-    }
 /*#endregion*/
 /*#region---KEYFRAMES---*/
 @keyframes identifier {
@@ -127,13 +106,70 @@ img{
 }
 /*#endregion*/
 
-
-
 /*#region---HOME---*/
-
-
-
-
+#home{
+    display: flex;
+    margin: 25px;
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.radio-holder{
+    display: flex;
+    height: 75px;
+    width: 260px;
+    justify-content:center;
+}
+#first-section{
+    display: block;
+}
+#second-section{
+    display: none;
+}
+#third-section{
+    display: none;
+}
+.index-radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.2vw solid var(--bg-color-tertiary);
+    box-shadow: 0px 0px 5px var(--bg-color-tertiary);
+    background-color: #343b41;
+    border-radius: 50%;
+    transition: 0.2s all linear;
+    position: relative;
+    top: 15px;
+    margin: 0px 15px 0px 15px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    transform: 0.5s;
+}
+.index-radio :checked{
+    border: 0.7vw solid var(--bg-color-secondary);
+    background-color: var(--bg-color-tertiary);
+    color: var(--bg-color-tertiary);
+}
+.index-radio :hover{
+    width: 5.0vw;
+    height: 5.0vw;
+    box-shadow: 0px 0px 15px var(--bg-color-tertiary);
+    
+}
+#journey-start{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 5px var(--bg-color-tertiary);
+    border: 0.1vw solid var(--bg-color-tertiary);
+    border-radius: 15%;
+    transition: all 0.2 ease-in-out;
+    cursor: pointer;
+}
+#journey-start:hover{
+    color: var(--bg-color-primary);
+    background-color: var(--bg-color-tertiary);    
+}
 /*#endregion*/
 /*#region---OVERZICHT---*/
 #hobby{
@@ -148,6 +184,8 @@ img{
 .hoverpallet{
     opacity: 0.3;
     transition: 0.5s ease;
+    box-shadow: 0px 0px 15px var(--bg-color-tertiary);
+
 }
 .hoverpallet:hover{
     opacity: 1;
@@ -159,6 +197,7 @@ img{
     justify-content: space-between;
     max-width:900px;
     min-width:600px;
+    gap: 5px;
 }
 #hobby p{
     padding: 0px 0px 25px 0px;
@@ -267,8 +306,6 @@ img{
 
 /*#endregion*/
 
-
-
 /*#region---LIKEBOX---*/
 .like-container{
     display: flex;
@@ -286,6 +323,47 @@ img{
 }
 .like:hover{
     filter: invert(100%) sepia(6%) saturate(596%) hue-rotate(310deg) brightness(116%) contrast(84%);
+}
+
+/*#endregion*/
+
+/*#region---MEDIA---*/
+@media screen and (max-width:600px) {
+    /*#region---common---*/
+    .logo{
+        display: none;
+    }    
+    /*#endregion*/
+    /*#region---hobby---*/
+#hobby{
+    
+}
+#hobby .no-border{
+    display: none;
+}
+#hobby article{
+    margin: 15px 45px;
+}
+    /*#endregion*/
+    /*#region---home--*/
+#contact{
+
+}
+.index-radio{
+    width: 25px;
+    height: 25px;
+}
+    /*#endregion*/
+    /*#region--contact--*/
+
+    /*#endregion*/
+}
+@media screen and (max-width:1000px) {
+/*#region---common---*/
+.logo{
+display: none;
+}  
+/*#endregion*/  
 }
 
 /*#endregion*/
