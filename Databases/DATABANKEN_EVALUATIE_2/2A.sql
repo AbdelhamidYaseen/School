@@ -1,0 +1,7 @@
+USE yaseenabdelhamid;
+CREATE TABLE IF NOT EXISTS Artiesten 
+(
+Id INT AUTO_INCREMENT PRIMARY KEY, 
+Artiest VARCHAR(100)
+)
+;
