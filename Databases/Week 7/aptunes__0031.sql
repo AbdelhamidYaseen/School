@@ -1,2 +1,2 @@
 use yaseenabdelhamid;
-alter table Albums add column Album_Id int, add constraint fk_Albums_Artiest foreign key (Album_Id) references Artiesten(id);
+ALTER TABLE Albums ADD COLUMN Album_Id INT, ADD CONSTRAINT fk_Albums_Artiest FOREIGN KEY (Album_Id) references Artiesten(id);

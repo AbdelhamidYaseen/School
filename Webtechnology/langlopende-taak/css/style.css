@@ -17,7 +17,6 @@ body{
     display: grid;
     grid-template-areas: 
     "header"
-    "navigation"
     "main"
     "footer"
     ;
@@ -36,7 +35,6 @@ header{
 /*#endregion*/
 /*#region---NAVIGATION---*/
 header nav > *{
-    grid-area: navigation;
     display: flex;
     justify-content: center;
     letter-spacing: 0.2rem;
@@ -358,7 +356,7 @@ h1,h2,h3,h4,h5,h6{
             display: none;
         }        
 /*#endregion*/
-/*#region ---xxx---*/
+/*#region ---ORIGINE---*/
 
 /*#endregion*/
 /*#region ---xxx---*/
