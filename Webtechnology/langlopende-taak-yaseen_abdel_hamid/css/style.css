@@ -49,7 +49,7 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.4vw;
     gap: 3vw;
 }
 nav ul li a{
@@ -818,7 +818,7 @@ p{
     display: block;
 }
 .creator{
-    display: none;
+    display: block;
 }
 /*#endregion*/
 /*==================================================*/
@@ -858,6 +858,9 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #hobby h2{
+        font-size: 1rem;
     }
 }
 
