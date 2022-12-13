@@ -1,0 +1,45 @@
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.AssemblyReference.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfoInputs.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfo.cs
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.CoreCompileInputs.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.exe
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.deps.json
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.runtimeconfig.json
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.pdb
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/refint/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.pdb
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.genruntimeconfig.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/ref/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.exe
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.deps.json
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.runtimeconfig.json
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.pdb
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.AssemblyReference.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfoInputs.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfo.cs
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.CoreCompileInputs.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/refint/LaboOefeningen.dll
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.pdb
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.genruntimeconfig.cache
+C:/Users/Gebruiker/AP_22-23/programmeren intro/LaboOefeningen/Labo01/LaboOefeningen/obj/Debug/net6.0/ref/LaboOefeningen.dll
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.deps.json
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.runtimeconfig.json
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.dll
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/bin/Debug/net6.0/LaboOefeningen.pdb
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.AssemblyReference.cache
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfoInputs.cache
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.AssemblyInfo.cs
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.csproj.CoreCompileInputs.cache
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.dll
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/refint/LaboOefeningen.dll
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.pdb
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/LaboOefeningen.genruntimeconfig.cache
+/Users/ortwin/Documents/ap_hogeschool/programmeren-intro/LaboOefeningen/LaboOefeningen/obj/Debug/net6.0/ref/LaboOefeningen.dll

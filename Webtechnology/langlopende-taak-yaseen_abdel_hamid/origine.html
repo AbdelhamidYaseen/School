@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="nl-Be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIGINE</title>
+    <link rel="icon" href="assets/images/TheForgeDwarfFavIcon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+        <!-- LEAFLET  -->
+         <!-- import  -->
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+         <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin="" defer></script>
+                 <!-- own  -->
+         <link rel="stylesheet" href="css/mapStyle.css">
+         <script src="js/mapScriptOrigine.js" defer></script>
+         <!-- LEAFLET  -->
+     
+</head>
+<body>
+    <header>
+        <a href="index.html"> <img src="assets/images/TheForgeDwarf.png" alt="logo"
+        class="logo"> </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li id="dropDown"><a href="hobby.html">overzicht</a>
+                <ul id="dropDownContent">
+                    <section>
+                        <li><a href="origine.html">origine</a></li>
+                        <li><a href="bordspel.html">bordspel</a></li>
+                        <li><a href="webshop.html">webshop</a></li>
+                        <li><a href="verf.html">verf</a></li>
+                        <li><a href="boeken.html">boeken</a></li>
+                        <li><a href="evenementen.html">evenementen</a></li>    
+                    </section>
+                </ul>
+                </li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="origine">
+        <h1>origine</h1>
+        <article id="begin">
+            <h2>de creatie</h2>
+            <img src="assets/images/gamesworkshop.jpg" alt="games workshop logo">    
+            <article>
+                <p class="opening-line">
+                    "Forget the promise of progress and understanding, for in the grim dark future there is only war. There is no peace amongst the stars, only an eternity of carnage and slaughter, and the laughter of thirsting gods."
+                </p>
+                <p>
+                    Dit is de openingslijn van de Warhammer 40k universum, een donkere plek waar zelden iemand een goed einde heeft maar hoe zijn we nu bij dit gekomen. Het spel is gemaakt in 1987 door een groepje nerds dat niet wisten dat ze uiteindelijk een keizerrijk zouden opstichten gebaseerd op een vorig bordspel “Warhammer Fantasy Battle” was de eerste uitgave “Warhammer 40k Rogue Trader”. 
+                </p>
+                <p>
+                    De verhalen spelen zich af in het jaar 40.000 dus 38.000 in onze toekomst. In deze toekomst is de mensheid ver geraakt maar nog verder gevallen, ze worden van alle kanten aangevallen door aliens, demonen en zelf een wandelende groene fungus.  
+                </p>
+                <p>
+                    Maar dit betekent niet dat de mensheid of “The Imperium Of Mankind” de helden in dit verhaal zijn, nee verre van. De serie is bekend om de term “GRIMDARK” te verspreiden, wat houdt dit nu in? Een verhaal dat een vorm van horror met zich meesleept, geen horror waar je achtervolgt wordt door een seriemoordenaar maar de horror dat je voelt wanneer er geen hoop meer is, dat alles dat je hebt gemaakt in u leven voor u ontnomen is geweest. En deze term is perfect om Warhammer 40k te beschrijven. 
+                </p>
+                <p> 
+                    Het bedrijf dat ze opgesticht hebben zal uiteindelijk "Games Workshop" genoed worden de locatie vindt u hieronder.                
+                </p>
+                <section id="map-container-origine">
+                    <a id="leafletMap"></a>
+                </section>
+            </article>
+        </article>
+        <article id="imperium">
+            <h2>the imperium of mankind</h2>
+            <img src="assets/images/imperium.jpg" alt="imperium">
+            <article>
+                <p class="opening-line">
+                    "The Imperium is like a man hanging from a cliff with one arm and without the strength to pull himself back up."
+                </p>
+                <p>
+                    Mensheid, de defacto protagonisten in het verhaal, de grootste factie in het universum. Ooit was de mensheid ver genoeg geraakt in hun technologie dat ze door het universum kondern reizen en ze ongevenaard waren daarin. Maar op een bepaald punt in hun bestaan waren hun mechanische dienaren de “Men Of Iron” hoog technologische AI tegen hun opgekomen, alhoewel de mensheid erin geslaagd was om hun te verslaan was het menselijk koningkrijk gebroken. Tesamen met de opkomst van een nieuwe duistere god is de mensheid in een nieuw tijdperk gevallen “The Age Of Strife”. 
+
+                </p>
+                <p>
+                    Op het moment dat de mensheid begon te falen heeft een machtig wezen alleen gekend als “The God Emporer Of Mankind” zich bekend gemaakt op wat vroeger aarde was. Traagjes heeft hij de mensheid beginnen uit hun duister tijdperk gehaald en hun onder 1 vlag gebracht. Hij maakte 20 legioenen van super soldaten met daaronder zijn 20 zonen de “Primarchs”. Maar al het goede komt ooit ten einden, de duistere goden hebben de helft van de Primarchs kunnen beinvloeden en onder hun kunnen brengen tegen de Emporer. Aan de hand van zijn favoriete zoon “Horus” is de Emporer in een halfdode staat gebracht, in coma op zijn goude troon op aarde is hij nu vastgezet, onsterfelijk maar in constante pijn. 
+                </p>
+                <p>
+                    Het Imperium is zo groot dat uit deze ene factie meer dan 85 andere facties komen. Elk met hun eigen ideologieen en doelen, maar dit betekent niet dat dit een goed ding is. Het Imperium is dun verspreid en wordt aangevallen langs alle kanten, de mogelijkheid om te winnen alleen weggehouden door hun eigen arrogantie en haat. 
+                </p>
+            </article>
+        </article>
+        <article id="chaos">
+            <h2>the forces of chaos</h2>
+            <img src="assets/images/chaos.jpg" alt="chaos-emblem">
+            <article>
+                <p class="opening-line">
+                    I am the Arch-fiend, the Despoiler of Worlds, and by my hands shall the false Emperor fall. The Emperor protects.
+                </p>
+                <p>
+                    The Ruinous Power of The Forces Of Chaoss zijn de defacto antagonisten in de serie. De beste mannier om hun te beschrijven is “De hel en hun demonen”, verdeeld in 4 hoofdfacties: Oorlog, Verandering, Stagnatie en Passie. Deze 4 facties worden elk geleid door een apparte god alhoewel ze als 1 factie worden beschouwd vechten deze constant tegen elkaar in een spel dat wel passend “The Great Game” wordt genoemd. 
+                </p>
+                <p>
+                    In het jaar 30.000 hebben de Ruinous Powers de helft van de Primarchs naar hun kant kunnen brengen en hun aartsvijand The Emporer kunnen verwonden. Zij zijn oneindig, onverslaanbaar maar wel veranderbaar. 
+                </p>
+                <p>
+                    De Daemons zoals ze genoemd worden zijn gewoon een reflexie van het universum, als er ooit vrede zou komen tussen de andere facties zou ze gewoon stoppen met bestaan zoals ze nu zijn. Maar dit is een idee dat nooit zal gebeuren.
+                </p>
+            </article>
+        </article>
+        <article id="ork">
+            <h2>the orks</h2>
+            <img src="assets/images/ork.jpg" alt="orc-emblem">
+            <article>
+                <p class="opening-line">
+                    Come and have a go then, ya runty little wimp! We is gonna stomp da universe flat and kill anyfink that fights back. we're da Orks, and was made ta fight and win.
+                </p>
+                <p>
+                    The Orks, waar begin ik hiermee. Ze zijn een grap. Niet als in ze zijn belachelijk maar als in ze zijn onverwachtbaar. De Orks zijn een speciaal gemodificeerd ras dat alleen bestaat om oorlog te voeren.
+                    </p>
+                <p>
+                    Als zij niet kunnen vechten worden ze dommer, kunnen ze dat wel worden ze slimmer en sterker. Ze volgens de ideologie van hun 2 goden “Gork” en “Mork”. Ze zijn niet eens wezens van vlees en bloed maar eerder een soort fungus dat zich super snel kan verspreiden en zodra het ergens is bijna onmogelijk te verdelgen is. Ze zijn enorm psychisc aangelegd, als ze met genoeg denken dat iets kan gebeuren zal het gebeuren. Ze denken bijvoorbeeld dat kleuren u speciale krachten geeft. Blauw aan? Je hebt enorm veel geluk. Verf jezelf paars en je zal onzichtbaar zijn. 
+                </p>
+                <p>
+                    Deze factie beargumenteerbaar de enigste factie dat echt aan het winnen is alleen omdat zij constant krijgen wat zij willen. Een goed gevecht
+                </p>
+            </article>
+        </article>
+        <article id="necron">
+            <h2>the necron</h2>
+            <img src="assets/images/necron-emblem.png" alt="necron-emblem">
+            <article>
+                <p class="opening-line">
+                    Only through permanence can we truly triumph, only through the Machine can we find victory.
+                </p>
+                <p>
+                    De oudste factie. De Necrons zijn machines gemaakt van een levend metaal, practische gezien onsterfelijk. Ze waren er voor elke andere factie maar zijn in een diepe slaap moeten gaan vanwege hun oorlog  met een ander lang vergeten ras. Bedenk dat ooit terwijl een archeoloog een gat aan het graven is er opeens een groene machine uit een kist komt gekropen, dat is een Necron, een terminator vanuit het verleden. 
+                </p>
+                <p>
+                    Meeste van hun slapen nog op verborge plekken maar sommige zijn al wakker geworden en zijn op een kruistocht om elke andere factie uit dit universum te verdelgen.
+                </p>
+            </article>
+        </article>
+        <article id="elf">
+            <h2>the eldari</h2>
+            <img src="assets/images/eldar-emblem.jpg" alt="eldar-emblem">
+            <article>
+                <p class="opening-line">
+                    Let not the fear of death stay your hand nor defeat your courage. The warrior who will prevail is the one who conquers death, who becomes one with death as we have.
+                </p>
+                <p>
+                    Iedereen in hun grootouders heeft ooit wel eens Lord Of The Rings gezien of gelezen en ooit Tolkien zijn elven leren kennen. De Eldari zijn ruimte elven een civilisatie dat bij de oudste in het universum hoort wanneer de mensheid voor het eerste vuur maakte hadden de Eldari al een half universum voor hunzelf overgenomen. Maar wat doet een ras dat onsterfelijk is zonder uitdaging of een doel om naar te werken. 
+                </p>
+                <p>
+                    Ze keren zich naar de kunsten, maar wat als dat ook saai voor hun wordt? Dan ga je naar nog iets exotischer. Uiteindelijk door hun “exotisch” gedrag is een duistere god genaamd Slaanesh geboren die de zielen van meeste Eldari heeft opgeslokt en hun rijk heeft laten ineenzakken op minder dan een paar dagen. De enigste dat de slachting van Slaanesh hebben overleefd waren de Eldari en de Drukhari. Beide stervend maar in vergelijking tot de Drukhari zijn de Eldari goed van hart en ziel. Alleen zijn ze zo klein dat ze even goed niet zouden bestaan. 
+                </p>
+                <p>
+                    Hun verhaal en doel is dat van een strijd om weer gelukkig en veilig te zijn zonder opgejaagd te worden door een duistere god.
+                </p>
+            </article>
+        </article>
+        <article id="dark-elf">
+            <h2>the drukhari</h2>
+            <img src="assets/images/drukhari-emblem.png" alt="drukhari-emblem">
+            <article>
+                <p class="opening-line">
+                    "We are the lords of despair, masters of terror. Dread and agony are our meat and wine, and they are plentiful indeed!"
+                </p>
+                <p>
+                    De neven en nichten van de Eldari maar verdraaid, duister en donker. Zoals de Eldari worden zij constant opgejaagd door Slaanesh maar zij hebben een mannier om haar te vreden te houden. 
+                </p>
+                <p>
+                    Ze martelen andere wezens en offeren hun op naar Slaanesh. Het leed dat zij aan andere aandoen houd de duistere god te vreden. 
+                </p>
+                <p>
+                    Deze factie moet dus constant andere facties overvallen voor hun bevolking en hun brengen naar hun land van Commorah een plaats tussen plaatsen waar zij gestollen zonnen als hun eigen gebruiken en wezens martellen voor hun eigen genot. 
+                </p>
+            </article>
+        </article>
+        <article id="tau">
+            <h2>the tau</h2>
+            <img src="assets/images/tau-emblem.jpg" alt="tau-emblem">
+            <article>
+                <p class="opening-line">
+                    "Today, we stand as a bulwark against the selfish, the soulless, and the mad! Today, we must drive back our enemies from our city and from our world! Today, more than ever before, we fight for the Greater Good!"
+                </p>
+                <p>
+                    De Tau zijn een jonge factie die relatief kort bestaat, oorspronkelijk waren de Tau een simpel ras dat amper uit het stenen tijdperk was geraakt tot een mysterious subras genaamd te Etherials hun begon te begeleiden. 
+                </p>
+                <p>
+                    Snel gegroeid tot een verlicht en zachtaardig rijk, de Tau zijn waarschijnlijk het meest “good guy” van heel het universum. Volgens hun “geloof” moeten ze streven naar het “Grotere Goed” een plaats of levenstijl waar allen gelukkig kunnen zijn. 
+                </p>
+                <p>
+                    Maar het is een jonge factie die niet weten in hoe een hard universum dat ze leven, ze zullen snel leren dat ze alleen maar een grote vis in een kleine vijver waren tot nu toe.
+                </p>
+            </article>
+        </article>
+        <article id="tyranid">
+            <h2>the tyranids</h2>
+            <img src="assets/images/tyranid-emblem.jpg" alt="tyranid-emblem">
+            <article>
+                <p class="opening-line">
+                    "Basically, life sucks, there is only war, and you're probably going to be eaten by Tyranids. Have fun."
+                </p>
+                <p>
+                    De Tyranids zijn een ras dat niet van dit universum zijn, weinig is gekend over hun sinds ze niet spreken de zijn simpele insecten die alleen maar andere willen consumeren. Ze zijn komen vanbuiten de randen van het univerum aangetrokken door de Emporer zonder hij het zelf weet. Ze hebben de naam Tyranids gekregen omdat ze oorspronkelijk de planeet Tyran voor het eerst aangevallen hebben. Geleid door een gedachte genaamd de “Hivemind”. 
+                </p>
+                <p>
+                    Er zijn meerdere vloten die door het universum reizen op zoek naar voedsel. Elke vloot bestaat uit miljoenen insecten die kunnen zich kunnen aanpassen aan elke situatie en uit zoveel bestaan dat ze zelf de lucht kunnen verduisteren met hun aantallen. 
+                </p>
+                <p>
+                    Ze zijn het grootste gevaar in het universum en het lijkt erop dat wat momenteel in het universum is alleen maar een “verkenningsvloot” is en dat het grootste gedeelte nog moet komen.
+                </p>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <p>
+            made by 
+            <br>
+            yaseen abdel-hamid
+        </p>
+        <p>
+            G_1PRO_D5
+        </p>
+        <p class="like-container"> 
+          like-container  
+        </p>
+</footer>
+</body>
+</html>
