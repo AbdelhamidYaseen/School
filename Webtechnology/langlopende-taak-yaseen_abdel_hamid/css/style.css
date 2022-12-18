@@ -20,7 +20,6 @@ body{
     "footer"
     ;
     height: 100vh;
-    width: 100vw;
 }
 /*#endregion*/
 /*#region ---HEADER---*/
@@ -31,6 +30,7 @@ header{
     margin-bottom: 2%;
     z-index: 2;
     background-color: var(--bg-color-primary);
+    width: 99%;
 }
 /*#endregion*/
 /*#region---NAVIGATION---*/
@@ -113,8 +113,7 @@ nav ul li a:hover{
 /*#region ---MAIN---*/
 main{
     grid-area: main;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 99%;
 }
 /*#endregion*/
 /*#region ---FOOTER---*/
@@ -124,13 +123,14 @@ footer{
     color: #EBEBEB;
     font-size: 1rem;
     text-transform: uppercase;
-    justify-content: space-evenly;
     margin-bottom: 1%;
     height: fit-content;
+    justify-content: space-evenly;
+    width: 99%;
 }
-footer p{
+footer h2{
     margin: 2%;
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 .footer{
     color: #EBEBEB;
@@ -167,6 +167,7 @@ h2{
 h3{
     font-size: 1.2rem;
 }
+
 p{
     font-size: 0.9rem;
 }
@@ -178,6 +179,76 @@ p{
 .no-border{
     border: none;
     box-shadow: none;
+}
+#origine h1, #bordspel h1, #verf h1, #boeken h1{
+    margin-left: 1vw;
+}
+/*#endregion*/
+/*#region ---LIKEPANEL---*/
+#like-container{
+    margin-right: 2vw;
+}
+
+#comment-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#comment-section textarea{
+    resize: none;
+    width: 15vw;
+    height: 15vh;
+    border: var(--bg-color-tertiary) 0.1rem solid;
+    background-color:rgb(44, 42, 42);
+    color: var(--bg-color-secondary);
+    margin-right: 1vw;
+}
+#comment-section textarea::placeholder{
+    color: var(--bg-color-secondary);
+}
+#comments{
+    margin-left: 2vw;
+}
+#comment-container{
+    display: flex;
+    overflow-y: scroll;
+    max-height: 15vh;
+    margin-bottom: 2vh;
+    word-wrap: break-word;
+    white-space:pre-wrap;
+    width: 30vw;
+}
+#comment-container ul li{
+    margin-top: 1vh;
+    border: 1px solid gray;
+    border-radius: 0.7rem;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: 1rem;
+    max-width: 27vw;
+
+}
+#submit{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--bg-color-tertiary);
+    background-color: transparent;
+    border: var(--bg-color-tertiary) 0.1rem solid;
+    font-size: 1vw;  
+    height: 1.3vh;
+    height: fit-content;
+
+}
+#like-button{
+    background: transparent;
+    border: var(--bg-color-tertiary) 0.1rem solid;
+    font-size: 1vw;
+    height: 1.3vh;
+    height: fit-content;
+
 }
 /*#endregion*/
 /*--------------------------------------------------*/
@@ -299,7 +370,7 @@ p{
     display: flex;
     justify-content: top;
     flex-direction: column;
-    width: 20vw;
+    width: 25vw;
     margin-top: 3vh;
     margin-left: 2%;
     margin-right: 2%;
@@ -334,6 +405,9 @@ p{
 }
 #map-container-origine img{
     border: none
+}
+#origine h1{
+    margin-bottom: 2.8vh;
 }
 #origine article{
     margin-left: 3vw;
@@ -444,7 +518,8 @@ p{
     margin-bottom: 1.5vw;
 }
 #verf section{
-    margin-left: 3vw;
+    margin-left: 1vw;
+
 }
 #verf h1{
     margin-bottom: 2.8vw;
@@ -453,6 +528,7 @@ p{
     margin-left: 3vw;
     margin-right: 4.5vw;
     margin-bottom: 4.5vw;
+    width: 50vw;
 }
 #verf p{
     margin-bottom: 1.5vw;
@@ -474,14 +550,17 @@ p{
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 5%;
-    margin-right: 5%;
+    width: 90%;
 }
+#events #comment-section h2{
+    text-decoration: none;
+    font-weight: normal;
+} 
 #events img{
     width: 40vw;
 }
 #events article{
     margin-right: 2%;
-    margin-right: 6%;
     margin-bottom: 8%;
 }
 #events p{
@@ -503,7 +582,7 @@ p{
     background-color: white;
     color: var(--bg-color-primary);
     border: var(--bg-color-tertiary) solid 2px;
-    width: 43vw;
+    width: 48%;
 }
 #location-con{
     color: var(--bg-color-tertiary);
@@ -513,7 +592,7 @@ p{
     background-color: white;
     color: var(--bg-color-primary);
     border: var(--bg-color-tertiary) solid 2px;
-    width: 43vw;
+    width: 48%;
 }
 #prizes{
     background-color: white;
@@ -534,7 +613,7 @@ p{
 }
 .carousel img{
     display: block;
-    width: 52vw
+    width: 50vw
 }
 #prizes ol{
     margin-top: 3%;
@@ -555,125 +634,83 @@ p{
 /*#region ---WEBSHOP---*/
 #webshop{
     display: flex;
-}
-#filter{
-    border: var(--bg-color-tertiary) 3px solid;
-    display: flex;
-    flex-direction: column;    
-    justify-content: space-evenly;
-    background-color: var(--bg-color-secondary);
-    color: var(--bg-color-primary);
-    width: fit-content;
-    max-width: 25vw;
-    font-size: 1rem;
-}
-.filter-input{
-    width: 3vw;
-}
-#filter label{
-    margin: 1vw;
-    font-size: 2.5vw;
-}
-#shop{
-    border: var(--bg-color-tertiary) 3px solid;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    background-color: var(--bg-color-secondary);
-    width: 35vw;
 }
-#shop p{
-    width: 100%;
-    background-color: black;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#webshop section{
+    color: var(--bg-color-secondary);
 }
-.webshop-item{
-    position: relative;
-    margin: 3%;
-    width: 25vw;
-    height: 25vw;
-    border: var(--bg-color-tertiary) 4px solid;
+.shop{
+    border:var(--bg-color-tertiary) 0.23rem solid;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: grey;
-    text-align: center;
-    position: relative;
+    width: fit-content;
+    padding: 1rem;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
 }
-.webshop-add{
-    position: absolute;
-    bottom: 0;
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin-bottom: 1vh;
+    border:#585252 0.23rem solid;
+    background-color:#343b41;
+    padding: 0.4rem;
 }
-.webshop-item img{
-    width: 10vw;
-    height: 10vw;
-    border: 1px var(--bg-color-tertiary) solid;
-    margin-top: 2.5vw;
-    margin-bottom: 1vw;
+.shop-item-image{
+    width: 25vw;
+    height: 25vw;
+    border: var(--bg-color-tertiary) solid 0.2rem;
 }
-.webshop-item h2, h3{
-    color: var(--bg-color-primary);
-}
-.webshop-item h2{
-    font-weight: bolder;
-}
-.webshop-item-name{
-    font-size: 2.0vw;
-}
-.webshop-item-price{
-    font-size: 1.5vw;
-}
-.webshop-item button, #shopping-cart button{
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--bg-color-tertiary);
-    background-color: transparent;
+.shop-item-button{
+    width: 25.5vw;
     border: none;
-    font-size: 2vw;
+    background-color: var(--bg-color-tertiary);
 }
-    /*shopping-cart*/
-    #shopping-cart{
-        border: var(--bg-color-tertiary) 3px solid;
-        display: flex;
-        flex-direction: column;
-        overflow-x: hidden;
-        overflow-y: auto;
-        text-align: justify;
-        scroll-behavior: smooth;
-        background-color: var(--bg-color-secondary); 
-        min-width: 14%;
-        width: fit-content;
-        height: fit-content;
-    }
-    #shopping-cart article{
-        display: flex;
-        margin-top: 2%;
-        height: 4vh;
-        color: black;
-    }
-    #shopping-cart p{
-        margin-top: 2%;
-        width: 100%;
-        background-color: black;
-        color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #shopping-cart h2{
-        font-size: 0.5rem;
-    }
-    #shopping-cart h3{
-        margin-left: 10%;
-        font-size: 0.5rem;
-    }
+.cart{
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.0rem;
+    max-height: 30vh;
+    overflow-y: auto;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    border:var(--bg-color-tertiary) 0.23rem solid;
+
+}
+.cart-quantity-input{
+    width: 2.5vw;
+}
+.cart-items{
+    max-height: 30vh;
+}
+.cart-row{
+    display: flex;
+    width: fit-content;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    background-color:#343b41;
+}
+.cart-item-title{
+    margin-left: 2vw;
+}
+.cart-price{
+    margin-left: 2vw;
+}
+.cart-quantity-input{
+    margin-left: 0.5vw;
+}
+.btn-purchase{
+    width: 25.5vw;
+    border: none;
+    background-color: var(--bg-color-tertiary);
+
+}
 /*#endregion*/
 /*#region ---CONTACT---*/
 #contact{
@@ -815,14 +852,15 @@ p{
     color: var(--bg-color-secondary);
 }
 .owner{
-    display: block;
+    display: none;
 }
 .creator{
-    display: block;
+    display: none;
 }
 /*#endregion*/
 /*==================================================*/
 /*#region ---MEDIAQUERIES---*/
+
 @media screen and (max-width:1000px) {
     .logo{
         display: none;
@@ -830,16 +868,69 @@ p{
     nav ul li a{
         font-size: 1rem;
     }
-    footer p{
-        font-size: 1rem;
-    }    
+}
+@media screen and (max-width:700px) {
+    footer h2{
+        font-size: 0.7rem;
+    } 
+    #top-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }   
+    #convention{
+        width: 99%;
+        margin-bottom: 1vh;
+
+    }
+    #prizes{
+        margin-bottom: 1vh;
+    }
+    
+    #tournements{
+        width: 99%;
+        margin-bottom: 1vh;
+
+    }
+    #winnaars{
+        background-color: white;
+        color: var(--bg-color-primary);
+        border: var(--bg-color-tertiary) solid 2px;
+        width: 100%;
+        margin-bottom: 1vh;
+    }
 }
 @media screen and (max-width:500px) {
     #hobby article{
         width: 30vw;
         margin-left: 5%;
         margin-right: 5%;
-    }    
+    }   
+    #comment-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #comment-section h2{
+        margin-bottom: 1vh;
+    }
+    #comment-section form{
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #submit{
+        margin-bottom: 1vh;
+    }
+
+    #comment-section textarea{
+        width: 40vw;
+        height: 15vh;
+    }
     #hobby p{
         display: none;
     }
@@ -847,11 +938,22 @@ p{
         min-width: 30vw;
         min-height: 30vw;
     }
+    #origine h1, #bordspel h1, #verf h1, #boeken h1{
+        text-align: center;
+    }
+    #verf section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #origine article, #bordspel article, #verf article, #boeken article{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        max-width: 95vw;
+        line-height: 1.5rem;
     }
     #boeken figure{
         display: flex;
@@ -862,6 +964,15 @@ p{
     #hobby h2{
         font-size: 1rem;
     }
+    #comment-container ul li{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:400px) {
+    #comment-container ul li{
+        font-size: 0.6rem;
+    }
+
 }
 
 /*#endregion*/

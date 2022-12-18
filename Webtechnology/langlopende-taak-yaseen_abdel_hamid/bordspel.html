@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BORDSPEL</title>
+    <title>warhammer 40k bordspel</title>
     <link rel="icon" href="assets/images/TheForgeDwarfFavIcon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" defer></script>
+    <script src="./js/likepanel.js" defer></script>
+    <script src="https://kit.fontawesome.com/bbaca6b5ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -113,19 +114,32 @@
                 </p>    
             </article>
         </section>
+        <section class="like-container">             
+            <section id="comment-section">
+                <form>
+                    <h2>Leave a comment!</h2>
+                   <textarea placeholder="write a comment..." value=" "></textarea><br>
+                   <button type="submit" id="submit">Comment</button>
+                   <button id="like-button"><i class="fa-solid fa-heart"></i></button>
+                </form>
+                <article class="comments">
+                    <h2>Comments</h2>
+                    <section id="comment-container"></section>
+                </article>
+            </section>    
+        </section>
+
     </main>
     <footer>
-        <p>
+        <h2>
             made by 
             <br>
             yaseen abdel-hamid
-        </p>
-        <p>
+        </h2>
+        <h2>
             G_1PRO_D5
-        </p>
-        <p class="like-container"> 
-          like-container  
-        </p>
+        </h2>
+       
 </footer>
 </body>
 </html>

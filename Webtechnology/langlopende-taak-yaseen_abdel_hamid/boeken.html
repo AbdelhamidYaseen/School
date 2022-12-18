@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOEKEN</title>
+    <title>warhammer literatuur</title>
     <link rel="icon" href="assets/images/TheForgeDwarfFavIcon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" defer></script>
+    <script src="./js/likepanel.js" defer></script>
+    <script src="https://kit.fontawesome.com/bbaca6b5ff.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -35,7 +37,6 @@
     </header>
     <main id="boeken">
         <h1>literatuur</h1>
-        <section>
             <article>
                 <h2>introductie</h2>
                 <p>
@@ -48,8 +49,6 @@
                     Hieronder zal u 4 series vinden die enorm belangrijk zijn om te hebben gelezen en nog belangrijker zijn om mee te starten.
                 </p>    
             </article>
-        </section>
-        <section>
             <article>
                 <h2>the horus heresy</h2>
                 <figure>
@@ -117,8 +116,6 @@
                     <li>The Buried Dagger</li>            
                 </ul>    
             </article>
-        </section>
-        <section>
             <article>
                 <h2>siege of terra</h2>
                 <figure>
@@ -139,8 +136,6 @@
                         <li>Echoes of Eternity</li>
                     </ol>
             </article>
-        </section>
-        <section>
             <article>
                 <h2>the beast arises</h2>
                 <figure>
@@ -167,8 +162,6 @@
                     <li>The Beheading</li>
                 </ul>    
             </article>
-        </section>
-        <section>
             <article>
                 <h2>adepta sororitas</h2>
                 <figure>
@@ -190,8 +183,6 @@
                     <li>Broken Saints</li>
                 </ul>    
             </article>
-        </section>
-        <section>
             <article>
                 <h2>ciaphas cain</h2>
                 <figure>
@@ -216,8 +207,6 @@
                     <li>Choose Your Enemies</li>
                 </ul>    
             </article>
-        </section>
-        <section>
             <article>
                 <h2>persoonlijke keuze</h2>
                 <p>Dit zijn mijn persoonlijke keuze's die ik zou aanraden om te lezen.</p>
@@ -255,20 +244,31 @@
                     </tr>
                 </table>    
             </article>
-        </section>
+            <section class="like-container">             
+                <section id="comment-section">
+                    <form>
+                        <h2>Leave a comment!</h2>
+                       <textarea placeholder="write a comment..." value=" "></textarea><br>
+                       <button type="submit" id="submit">Comment</button>
+                       <button id="like-button"><i class="fa-solid fa-heart"></i></button>
+                    </form>
+                    <article class="comments">
+                        <h2>Comments</h2>
+                        <section id="comment-container"></section>
+                    </article>
+                </section>    
+            </section>
+    
     </main>
     <footer>
-        <p>
+        <h2>
             made by 
             <br>
             yaseen abdel-hamid
-        </p>
-        <p>
+        </h2>
+        <h2>
             G_1PRO_D5
-        </p>
-        <p class="like-container"> 
-          like-container  
-        </p>
+        </h2>
 </footer>
 </body>
 </html>

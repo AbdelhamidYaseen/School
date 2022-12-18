@@ -8,7 +8,8 @@
     <link rel="icon" href="assets/images/TheForgeDwarfFavIcon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" defer></script>
+    <script src="./js/webshop.js" defer></script>
+    <script src="https://kit.fontawesome.com/bbaca6b5ff.js" crossorigin="anonymous"></script> 
 </head>
 <body>
     <header>
@@ -34,95 +35,47 @@
         </nav>
     </header>
     <main id="webshop">
-    <section id="filter">
-        <label for="horus-heresy"><input type="checkbox" name="horus-heresy" class="filter-input">
-            Horus Heresy</label>
-        <label for="imperium"><input type="checkbox" name="imperium"class="filter-input">
-            Imperium</label>
-        <label for="daemons"><input type="checkbox" name="daemons"class="filter-input">
-            Chaoss</label>
-        <label for="traitor-legion"><input type="checkbox" name="traitor-legion"class="filter-input">
-            Traitor Legions</label>
-        <label for="eldari"><input type="checkbox" name="eldari"class="filter-input">
-            Eldar</label>
-        <label for="drukhari"><input type="checkbox" name="drukhari"class="filter-input">
-            Drukhari</label>
-        <label for="ork"><input type="checkbox" name="ork"class="filter-input">
-            Ork</label>
-        <label for="tau"><input type="checkbox" name="tau"class="filter-input">
-            Tau</label>
-        <label for="tyranid"><input type="checkbox" name="tyranid"class="filter-input">
-            Tyranid</label>
-        <br>
-        <label for="slider">Price range: 10$</label>
-        <input type="range" min="1" max="1000" value="25" id="price-slider" name="slider">
-        <br>
-        <input type="searchbar" placeholder="Search..." id="searchbar">
-    </section>    
-    <section id="shop">
-        <article class="webshop-item">
-            <img src="assets/images/custodes-general.jpg" alt="custodes-general">
-            <h2 class="webshop-item-name">Custodes General</h2>
-            <h3 class="webshop-item-price">34.99$</h3>
-            <p class="webshop-add"><button>add to cart</button></p>
-        </article>
-        <article class="webshop-item">
-            <img src="assets/images/custodes-bike-standalone.jpg" alt="custodes-bike-standalone">
-            <h2 class="webshop-item-name">Custodes Bike Standalone</label>
-            <h3 class="webshop-item-price">24.99$</h3>
-            <p class="webshop-add"><button>add to cart</button></p>
-        </article>
-        <article class="webshop-item">
-            <img src="assets/images/custodes-bikes.jpg" alt="custodes-bikes">
-            <h2 class="webshop-item-name">Custodes-Bikes</h2>
-            <h3 class="webshop-item-price">59.99$</h3>
-            <p class="webshop-add"><button>add to cart</button></p>
-        </article>
-        <!-- Dit dient om te laten zien dat de shop werkt 
-        <article class="webshop-item">
-            <img src="./assets/images/banner.png" alt="">
-            <h2 class="webshop-item-name">item1</h2>
-            <h3 class="webshop-item-price">price1</h3>
-            <p><button class="webshop-add">add to cart</button></p>
-        </article>
-        <article class="webshop-item">
-            <img src="./assets/images/banner.png" alt="">
-            <h2 class="webshop-item-name">item1</h2>
-            <h3 class="webshop-item-price">price1</h3>
-            <p><button class="webshop-add">add to cart</button></p>
-        </article>
-        <article class="webshop-item">
-            <img src="./assets/images/banner.png" alt="">
-            <h2 class="webshop-item-name">item1</h2>
-            <h3 class="webshop-item-price">price1</h3>
-            <p><button class="webshop-add">add to cart</button></p>
-        </article>
-        -->
-    </section>
-    <section id="shopping-cart">
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>
-        <article><h2>example product</h2><h3>price</h3></article>        
-        <p><button>checkout</button></p>
-    </section>
+        <section class="shop">
+            <h2>shop</h2>
+                <article class="shop-item">
+                    <img class="shop-item-image" src="assets/images/custodes-general.jpg">
+                    <span class="shop-item-title">Custodian General</span>
+                    <span class="shop-item-price">$59.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+             </article>
+             <article class="shop-item">
+                <img class="shop-item-image" src="assets/images/custodes-bike-standalone.jpg">
+                <span class="shop-item-title">Custodian Bike</span>
+                <span class="shop-item-price">$30.99</span>
+                <button class="shop-item-button" type="button">ADD TO CART</button>
+         </article>
+         <article class="shop-item">
+            <img class="shop-item-image" src="assets/images/custodes-bikes.jpg">
+            <span class="shop-item-title">Custodian Squad</span>
+            <span class="shop-item-price">$69.99</span>
+            <button class="shop-item-button" type="button">ADD TO CART</button>
+     </article>
+        </section>
+            <section class="cart">
+                <h2>cart</h2>
+                <section class="cart-items">
+                </section>
+                <section class="cart-total">
+                    <span class="cart-total-title">Total</span>
+                    <span class="cart-total-price">$totalprice</span>
+                </section>
+                <button class="btn-purchase" type="button">PURCHASE</button>        
+            </section>
     </main>
     <footer>
-        <p>
+        <h2>
             made by 
             <br>
             yaseen abdel-hamid
-        </p>
-        <p>
+        </h2>
+        <h2>
             G_1PRO_D5
-        </p>
-        <p class="like-container"> 
-          like-container  
-        </p>
+        </h2>
 </footer>
 </body>
 </html>
