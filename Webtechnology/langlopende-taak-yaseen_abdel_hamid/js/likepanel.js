@@ -1,26 +1,30 @@
 //COMMENT SECTION
 let txtarea = document.querySelector('textarea');
-let btn = document.querySelector('.btn');
-let submit = document.querySelector('#submit')
-let comments = document.getElementById('comment-container');
+let submitBtn = document.querySelector('#submit')
+let commentSection = document.getElementById('comment-container');
 let commentsList = [];
 
 let display_comments = () => {
-  let list = '<ul>';
+  let listComments = '<ul>';
    commentsList.forEach(comment => {
-    list += `<li>${comment}</li>`;
+    listComments += `<li>${comment}</li>`;
   })
-  list += '</ul>';
-  comments.innerHTML = list;
+  listComments += '</ul>';
+  commentSection.innerHTML = listComments;
 }
 
-submit.onclick = function(event){
+submitBtn.onclick = function(event){
     event.preventDefault();
     let content = txtarea.value;
-      commentsList.push(content);
-      display_comments();
-      txtarea.value = '';
+    if(content.length < 3){
+      alert("Minimum comment length: 3")
+      return
+    }
+    commentsList.push(content);
+    display_comments();
+    txtarea.value = '';
 }
+
 //LIKE BUTTON
 let likeButton = document.getElementById('like-button');
 likeButton.onclick = function(event){

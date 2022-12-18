@@ -1,25 +1,35 @@
 //#region IMPORTANT-README
 /*
-code is gemaakt met begeleiding van deze video: 
-https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
-niet gekopieerd maar gebruikt om een houvast te hebben
+================================================================================
+================================================================================
+    code is gemaakt met begeleiding van deze sources:
+
+    introductie         --->    https://makeschool.org/mediabook/oa/tutorials/ecommerce-tutorial-wd8/shopping-cart-tutorial/
+    video-voorbeeld     --->    https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
+
+    niet gekopieerd maar gebruikt om een houvast te hebben
+
+================================================================================
+================================================================================
 */
 //#endregion
-//page loading moet erin blijven anders werkt het niet
+//page loading moet erin blijven
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', remove)
 } else {
     remove()
 }
 //purchase item
-function purchase(title, price) {
+function purchaseItem(title, price) {
     let cartItem = document.createElement('section')
     cartItem.classList.add('cart-row')
     let cartItems = document.getElementsByClassName('cart-items')[0]
     let cartItemNames = cartItems.getElementsByClassName('cart-title')
+    let cartItemInputValue = cartItems.getElementsByClassName('quantity-input')
         //#region remove for example presentation
     for (let i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
+            cartItemInputValue
             alert(`"${title}" bevindt zich al in het mandje`)
             return
         }
@@ -51,7 +61,7 @@ function addToCartEvent(event) {
     let shopItem = itemButton.parentElement.parentElement
     let itemTitle = shopItem.getElementsByClassName('shop-item-title')[0].innerText
     let price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
-    purchase(itemTitle, price)
+    purchaseItem(itemTitle, price)
     cartTotal()
 }
     //event quantity veranderd(totalPrice update)
