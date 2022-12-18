@@ -26,10 +26,12 @@ let likeButton = document.getElementById('like-button');
 likeButton.onclick = function(event){
   event.preventDefault();
   if (likeButton.style.color =="red") {
-    likeButton.style.color = "grey"
+    likeButton.style.color = "black"
+    likeButton.style.backgroundColor = "grey"
 }
 else{
   likeButton.style.color = "red"
+  likeButton.style.backgroundColor = "purple"
 }
 
 }
