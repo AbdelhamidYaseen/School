@@ -2,12 +2,15 @@
 /*
 ================================================================================
 ================================================================================
+    dit te bereiken kon ik niet zonder hulp anders waren het gewoon <p></p> elementen die werden aangepast
+    niet kwaliteitvol genoeg volgens mij dus heb ik externe hulp gezocht
     code is gemaakt met begeleiding van deze sources:
 
     introductie         --->    https://makeschool.org/mediabook/oa/tutorials/ecommerce-tutorial-wd8/shopping-cart-tutorial/
     video-voorbeeld     --->    https://www.youtube.com/watch?v=YeFzkC2awTM&ab_channel=WebDevSimplified
+                        --->    https://www.youtube.com/watch?v=ssCQKL9f6dg&ab_channel=Salvandoelsemestre
 
-    niet gekopieerd maar gebruikt om een houvast te hebben
+    gebruikt om een houvast te hebben
 
 ================================================================================
 ================================================================================
@@ -39,10 +42,14 @@ function purchaseItem(title, price) {
     const cartInput = 
         `
         <section class="cart-row">
-        <span class="cart-title">${title}</span>
+        <span class="cart-title">
+        ${title}
+        </span>
         <span class="cart-quantity">
-        <span class="cart-price">${price}</span>
-        <input class="quantity-input" type="number" value="1">
+            <p class="cart-price">
+            ${price}
+            </p>
+            <input class="quantity-input" type="number" value="1">
         </span>
         <button class="remove" type="button">
         X
