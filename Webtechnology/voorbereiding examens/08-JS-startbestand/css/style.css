@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "img img img"
+    "img img img"
+    "img img img"
+    ;
+}
+.grid img{
+    grid-area: "img";
+}

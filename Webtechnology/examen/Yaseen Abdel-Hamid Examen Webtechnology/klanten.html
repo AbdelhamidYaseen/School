@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="student AP">
+  <meta name="description" content="wol&co, shop">
+  <meta name="keywords" content="wol, dun, dik, grijs, schaap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>wol&co klanten</title>
+
+    <!-- LEAFLET -->
+  <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+  <!-- voeg eigen css toe -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+  <!-- voeg het mapScript.js en hoursScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+  <script src="./js/mapScript.js" defer></script>
+  <script src="./js/hoursScript.js" defer></script>
+
+  <script src="./js/randomuser.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/images/logo.jpg" alt="logo wol&co" id="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a class="active" href="klanten.html">klanten</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <hr>
+    <h1>klanten van wol&co</h1>
+      <!-- JS plaatst hier de data uit randomuser.js -->
+  </main>
+
+  <aside>
+    <h2>Contact</h2>
+    <p>Ellermanstraat 33<br>
+      2060 Antwerpen<br>
+		  contact via <a href="mailto:wolshop@ap.be">mail</a> 
+    </p>
+    <h2>openingsuren</h2>
+    <ul id="hourList">
+      <!-- JS plaatst hier de data uit contactHourArr -->
+    </ul>
+    <h2>op de kaart</h2>
+      <!-- iv voor leaflet-->
+    <div id="mapContainer"></div>
+  </aside>
+
+  <footer>
+    <p>2023 AP-Antwerpen.be | Privacy & gebruiksvoorwaarden</p>
+  </footer>
+</body>
+</html>

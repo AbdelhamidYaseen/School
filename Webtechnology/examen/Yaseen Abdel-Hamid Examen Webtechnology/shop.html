@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl-BE" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="student AP">
+  <meta name="description" content="wol&co, shop">
+  <meta name="keywords" content="wol, dun, dik, grijs, schaap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>wol&co shop</title>
+
+    <!-- LEAFLET -->
+  <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+  <!-- voeg eigen css toe -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+  <!-- voeg het mapScript.js en hoursScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+  <script src="./js/mapScript.js" defer></script>
+  <script src="./js/hoursScript.js" defer></script>
+
+  <script src="./js/shopScript.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<img src="./assets/images/logo.jpg" alt="logo wol&co" id="logo">
+		<nav>
+		  <ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="klanten.html">klanten</a></li>
+			<li><a class="active" href="shop.html">shop</a></li>
+			<li><a href="contact.html">contact</a></li>
+		  </ul>
+		</nav>
+	</header>
+
+	<main id="main">
+		<hr>
+    	<h1>shop van wol&co</h1>
+		<h2>overzicht producten</h2>
+		<section class="product-container">
+			<article class="product">
+				<h3>dun beige</h3>
+				<img src="./assets/images/wol-1.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€10</p>
+				<button class="buy-button">koop</button>
+			</article>
+			<article class="product">
+				<h3>dikker</h3>
+				<img src="./assets/images/wol-2.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€12</p>
+				<button class="buy-button">koop</button>
+			</article>
+			<article class="product">
+				<h3>dikste</h3>
+				<img src="./assets/images/wol-3.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€14</p>
+				<button class="buy-button">koop</button>
+			</article>
+			<article class="product">
+				<h3>dun grijs</h3>
+				<img src="./assets/images/wol-4.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€11</p>
+				<button class="buy-button">koop</button>
+			</article>
+			<article class="product">
+				<h3>gebreid schaap</h3>
+				<img src="./assets/images/wol-5.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€18</p>
+				<button class="buy-button">koop</button>
+			</article>
+			<article class="product">
+				<h3>DIY: één schaap</h3>
+				<img src="./assets/images/wol-6.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<p>€195</p>
+				<button class="buy-button">koop</button>
+			</article>
+		</section>
+	</main>
+	
+	<aside>
+		<h2>winkelmandje</h2>
+		<p id="counter">0</p>
+		<section id="cart"></section>
+		<h3>totaal</h3>
+		<p id="total">€0</p>
+		<hr>
+		<h2>Contact</h2>
+		<p>Ellermanstraat 33<br>
+		  2060 Antwerpen<br>
+		  contact via <a href="mailto:wolshop@ap.be">mail</a> 
+		</p>
+		<h2>openingsuren</h2>
+		<ul id="hourList">
+		  <!-- JS plaatst hier de data uit contactHourArr -->
+		</ul>
+		<h2>op de kaart</h2>
+		<!-- iv voor leaflet-->
+	  <div id="mapContainer"></div>
+		</aside>
+	
+	  <footer>
+		<p>2023 AP-Antwerpen.be | Privacy & gebruiksvoorwaarden</p>
+	  </footer>
+	</body>
+	</html>

@@ -1,0 +1,15 @@
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.exe
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.deps.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.runtimeconfig.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\bin\Debug\net6.0\LaboOefeningen.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.csproj.AssemblyReference.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.AssemblyInfoInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.AssemblyInfo.cs
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.csproj.CoreCompileInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\refint\LaboOefeningen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\LaboOefeningen.genruntimeconfig.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\School\Programming\Week-12\LaboOefeningen\LaboOefeningen\obj\Debug\net6.0\ref\LaboOefeningen.dll

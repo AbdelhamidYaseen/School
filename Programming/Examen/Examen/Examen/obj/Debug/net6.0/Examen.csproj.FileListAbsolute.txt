@@ -1,0 +1,15 @@
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\bin\Debug\net6.0\Examen.exe
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\bin\Debug\net6.0\Examen.deps.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\bin\Debug\net6.0\Examen.runtimeconfig.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\bin\Debug\net6.0\Examen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\bin\Debug\net6.0\Examen.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.csproj.AssemblyReference.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.AssemblyInfoInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.AssemblyInfo.cs
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.csproj.CoreCompileInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\refint\Examen.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\Examen.genruntimeconfig.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\Examen\Examen\Examen\obj\Debug\net6.0\ref\Examen.dll

@@ -1,0 +1,15 @@
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\bin\Debug\net6.0\ExamenProgrammeren.exe
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\bin\Debug\net6.0\ExamenProgrammeren.deps.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\bin\Debug\net6.0\ExamenProgrammeren.runtimeconfig.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\bin\Debug\net6.0\ExamenProgrammeren.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\bin\Debug\net6.0\ExamenProgrammeren.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.csproj.AssemblyReference.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.AssemblyInfoInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.AssemblyInfo.cs
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.csproj.CoreCompileInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\refint\ExamenProgrammeren.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ExamenProgrammeren.genruntimeconfig.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\ExamenProgrammeren\ExamenProgrammeren\obj\Debug\net6.0\ref\ExamenProgrammeren.dll
