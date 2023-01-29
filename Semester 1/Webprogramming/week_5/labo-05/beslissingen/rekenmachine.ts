@@ -1,4 +1,4 @@
-/*
+export{}
 const input = require("readline-sync");
 
 let nmbrFirst : number = parseInt(input.question("Geef je eerste getal in:\n"));
@@ -25,4 +25,4 @@ else if (methode == "/"){
         console.log(nmbrFirst/nmbrSecond);
     }
 }
-*/
+export{}

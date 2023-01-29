@@ -1,4 +1,4 @@
-/*
+export{}
 const input = require("readline-sync");
 
 let jaar : number = parseInt(input.question("Geef het jaartal in "));
@@ -19,4 +19,5 @@ if(jaar/4){
 else{
     console.log(`${jaar} is geen schrikkeljaar`);
 }
-*/
+
+export{}

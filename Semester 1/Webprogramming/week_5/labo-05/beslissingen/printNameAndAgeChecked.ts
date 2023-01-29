@@ -1,4 +1,4 @@
-/*
+export{}
 const input = require("readline-sync");
 
 let voornaam : string = input.question("Wat is uw voornaam? ");
@@ -17,7 +17,5 @@ else if (achternaam == ""){
 else if (leeftijd < 18 || leeftijd > 60 ){
     console.log("Vul je leeftijd correct in");
 }
-*/
-
-
+export{}
 
