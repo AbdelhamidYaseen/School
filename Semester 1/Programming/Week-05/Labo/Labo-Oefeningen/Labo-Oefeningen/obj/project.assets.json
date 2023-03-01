@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abdel\\.nuget\\packages\\": {}
+    "C:\\Users\\Yaseen Abdel-Hamid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
+      "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
       "projectName": "Labo-Oefeningen",
-      "projectPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
-      "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdel\\OneDrive\\Bureaublad\\School\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\obj\\",
+      "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\Labo-Oefeningen.csproj",
+      "packagesPath": "C:\\Users\\Yaseen Abdel-Hamid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Week-05\\Labo\\Labo-Oefeningen\\Labo-Oefeningen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yaseen Abdel-Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

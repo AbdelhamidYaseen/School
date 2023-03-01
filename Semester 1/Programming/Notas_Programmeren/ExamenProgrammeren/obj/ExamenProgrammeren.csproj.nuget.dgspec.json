@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj": {}
+    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj": {
+    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj",
+        "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj",
         "projectName": "ExamenProgrammeren",
-        "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj",
+        "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Notas_Programmeren\\ExamenProgrammeren\\ExamenProgrammeren.csproj",
         "packagesPath": "C:\\Users\\Yaseen Abdel-Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Notas_Programmeren\\ExamenProgrammeren\\obj\\",
+        "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Notas_Programmeren\\ExamenProgrammeren\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yaseen Abdel-Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",

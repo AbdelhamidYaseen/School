@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj": {}
+    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj": {
+    "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj",
+        "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj",
         "projectName": "Permanente evaluatie 3",
-        "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj",
+        "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Permanente evaluatie 3\\Permanente evaluatie 3\\Permanente evaluatie 3.csproj",
         "packagesPath": "C:\\Users\\Yaseen Abdel-Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\Permanente evaluatie 3\\Permanente evaluatie 3\\obj\\",
+        "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\Permanente evaluatie 3\\Permanente evaluatie 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yaseen Abdel-Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
