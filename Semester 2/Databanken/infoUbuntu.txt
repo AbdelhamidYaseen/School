@@ -1,4 +1,0 @@
-UNIX_USERNAME: [yaseenabdelhamid]
-UNIX_PASSWORD: [MengHao19]
-MYSQL_USERNAME: [ms]
-MYSQL_PASSWORD: [MengHao19]

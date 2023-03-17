@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\labo10 (1)\\LaboOefeningen\\LaboOefeningen.csproj",
-      "projectName": "LaboOefeningen",
-      "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\labo10 (1)\\LaboOefeningen\\LaboOefeningen.csproj",
+      "projectUniqueName": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\YaseenAbdel-Hamid_Programmeren_Deelevaluatie1\\DeelEvaluatie1\\DeelEvaluatie1\\DeelEvaluatie1.csproj",
+      "projectName": "DeelEvaluatie1",
+      "projectPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\YaseenAbdel-Hamid_Programmeren_Deelevaluatie1\\DeelEvaluatie1\\DeelEvaluatie1\\DeelEvaluatie1.csproj",
       "packagesPath": "C:\\Users\\Yaseen Abdel-Hamid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\School\\Semester 1\\Programming\\labo10 (1)\\LaboOefeningen\\obj\\",
+      "outputPath": "C:\\Users\\Yaseen Abdel-Hamid\\Desktop\\YaseenAbdel-Hamid_Programmeren_Deelevaluatie1\\DeelEvaluatie1\\DeelEvaluatie1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yaseen Abdel-Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
