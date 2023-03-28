@@ -1,0 +1,61 @@
+API Information
+==================================
+https://pokeapi.co/docs/v2
+	--> er zijn sub API's die we kunnen gebruiken (bv berry, spawn time/rate)
+		--> deze moeten we ook oproepen op apparte momenten
+
+
+****************************
+Sprites
+****************************
+Self: Default_Sprite_Behind
+Enemy: Default_Sprite
+Gender Setting:
+	--> male
+	--> female (if null) {sprite = male}
+
+(mogelijkheid): Shiny flag bij pokemon zetten (Shiny_Sprite & Shiny_Sprite_Behind)
+	--> voor random enemy & encounter 0.014% kans ofzo dat het een shiny is.
+
+Te gebruiken bij:
+	* Pokemon Battler
+	* Pokemon Catcher
+
+!!GEBRUIK ALLEEN SPRITES VAN DEZELFDE GEN-UITGAVE (onze standaard uitgave)!!
+
+****************************
+Official Artwork
+****************************
+
+
+Te gebruiken bij:
+	* Pokedex
+	* Pokebag
+	* Who Is That Pokemon?
+
+!!GEBRUIK ALLEEN DE "official-artwork" OM VERWARRING EN DEASSOCIATIES TE VERMIJDEN!!
+
+
+****************************
+Stats
+****************************
+Je krijgt de "base-stats" 
+effort values --> nog niet nodig (mogelijk toekomstige addition maar kan je zelf niet merken tenzij je er naar zoekt )
+
+Te gebruiken bij:
+	* Algemene "class" of attribuut van een opgeslagen pokemon
+		--> makkelijk op te roepen
+
+ToDo:
+	Hoe veranderen stats post Level-Up
+(stat level growth)
+
+
+****************************
+Types
+****************************
+	
+Te gebruiken bij:
+	* Algemene "class" of attribuut van een opgeslagen pokemon
+		--> makkelijk op te roepen 
+

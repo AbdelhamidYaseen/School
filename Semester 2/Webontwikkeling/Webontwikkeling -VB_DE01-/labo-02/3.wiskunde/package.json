@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/node": "^18.15.3",
+    "math-expression-evaluator": "^2.0.2"
+  }
+}
