@@ -1,0 +1,34 @@
+<%- include("header") %>
+
+    <%- include("nav") %>
+  
+    <!-- main section start -->
+    <main>
+        <div class="header">
+            <h2>Home</h2>
+        </div>
+        <% if (error !== undefined) { %>
+            <div class="error">
+                <p><strong>Error:</strong> <%= error %></p>
+            </div>
+        <% } %>
+        <div class="tweet_box">
+
+            <form method="post" action="/">
+                <div class="tweet_box-input">
+                    <img src="/images/avatars/JonDoe.png" alt="profile image">
+                    <textarea rows="4" cols="40" placeholder="What's happening?" name="text"></textarea>
+                    <button>Tweet</button>
+                </div>
+            </form>
+
+        </div>
+
+        <%- include("tweets") %>
+    </main>
+    <!-- main section end -->
+
+    <%- include("aside") %>
+
+    
+<%- include("footer") %>

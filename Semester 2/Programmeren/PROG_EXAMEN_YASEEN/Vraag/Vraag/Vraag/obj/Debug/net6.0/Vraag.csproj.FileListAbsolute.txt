@@ -1,0 +1,30 @@
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\bin\Debug\net6.0\Vraag.exe
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\bin\Debug\net6.0\Vraag.deps.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\bin\Debug\net6.0\Vraag.runtimeconfig.json
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\bin\Debug\net6.0\Vraag.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\bin\Debug\net6.0\Vraag.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.csproj.AssemblyReference.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.AssemblyInfoInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.AssemblyInfo.cs
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.csproj.CoreCompileInputs.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\refint\Vraag.dll
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.pdb
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\Vraag.genruntimeconfig.cache
+C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\obj\Debug\net6.0\ref\Vraag.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.csproj.AssemblyReference.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.AssemblyInfoInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.AssemblyInfo.cs
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.csproj.CoreCompileInputs.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\refint\Vraag.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\bin\Debug\net6.0\Vraag.exe
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\bin\Debug\net6.0\Vraag.deps.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\bin\Debug\net6.0\Vraag.runtimeconfig.json
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\bin\Debug\net6.0\Vraag.dll
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\bin\Debug\net6.0\Vraag.pdb
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\Vraag.genruntimeconfig.cache
+C:\Users\Yaseen Abdel-Hamid\Desktop\PROG_EXAMEN_YASEEN\Vraag\Vraag\Vraag\obj\Debug\net6.0\ref\Vraag.dll

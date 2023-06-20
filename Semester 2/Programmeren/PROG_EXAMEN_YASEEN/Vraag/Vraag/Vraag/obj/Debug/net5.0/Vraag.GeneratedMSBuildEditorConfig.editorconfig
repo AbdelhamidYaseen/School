@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Vraag
+build_property.ProjectDir = C:\Users\tibra\OneDrive - AP Hogeschool Antwerpen\Lessen OOP\22-23\OOP Sem 2\Examen-LAPTOP-2QI7R2CL\Eerste zit juni 23\Vraag\Vraag\

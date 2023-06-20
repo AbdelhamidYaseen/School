@@ -1,0 +1,69 @@
+### Stappenplan
+
+1. Ga naar de `labo_csrf_xss` directory en doe vervolgens
+
+    ```
+    npm install
+    ```
+
+2. In deze directory staat een heel onveilige bank applicatie waarmee je geld kan sturen van de ene persoon naar de andere.
+
+    ```
+    node index.js
+    ```
+
+    en dan naar http://localhost:3000 te surfen.
+
+3. Je kan in deze applicatie inloggen met twee gebruikers: **cat** (test123) en **dog** (hunter2). 
+
+4. Log in als dog en zorg ervoor dat er een popup venster (alert) op het scherm komt van cat als hij zijn berichten leest. Je mag zelf de inhoud bepalen. 
+
+    Neem hier een screenshot van en sleep deze hieronder in.
+
+    <div id="xss_alert" style="" class="holder_default">
+          <img src="" id="xss_alert_image_droped"  style="max-width:80%; border: 3px dashed #7A97FC;" class=" hidden"/>
+    </div>
+    <script>
+        $(document).ready(function() {
+            addDrop('xss_alert')
+        });
+    </script>
+
+5. Start naast de `index.js` applicatie ook de `evil.js` applicatie. Deze zal ook op localhost lopen maar op een andere poort. 
+
+6. Zorg ervoor dat cat een bericht terugstuurt naar dog met daarin een stuk code dat de browser van dog redirect naar de url van de `evil.js` web applicatie. Zorg ervoor dat de cookies van dog worden meegestuurd.
+
+    Welk bericht heb je gestuurd?
+
+    <textarea style="width: 100%;" rows="4">
+    </textarea>    
+
+7. Kijk in de terminal van de evil applicatie en neem een screenshot van de cookies van dog. Sleep deze hieronder in:
+
+    <div id="xss_terminal" style="" class="holder_default">
+          <img src="" id="xss_terminal_image_droped"  style="max-width:80%; border: 3px dashed #7A97FC;" class=" hidden"/>
+    </div>
+    <script>
+        $(document).ready(function() {
+            addDrop('xss_terminal')
+        });
+    </script>
+
+8. Wat kan cat hier nu mee doen?
+
+    <textarea style="width: 100%;" rows="7">
+    </textarea>
+
+9. Gebruik de `html-entities` library om deze XSS zwakheden op te lossen in de web applicatie.
+
+10. Maak een kleine web applicatie in node/express op localhost met port 1337. 
+
+    Zorg ervoor dat deze een html bestand kan tonen waar een request wordt gedaan via fetch naar `http://localhost:3000/users/json`.
+
+    Zorg ervoor dat je de `index.js` applicatie aanpast zodat deze requests van `http://localhost:1337` aanvaard. Gebruik hiervoor de `cors` library.
+
+8. Print deze pagina af als PDF en slaag deze op als `naam_voornaam_labo_csrf.pdf` en stuur de volgende files op via digitap:
+
+    - naam_voornaam_labo_xss.pdf
+    - index.js
+    - alle files die je hebt aangemaakt in stap 10
